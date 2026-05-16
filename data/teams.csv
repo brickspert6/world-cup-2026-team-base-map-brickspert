@@ -1,0 +1,62 @@
+﻿team,country_code,group,training_site,training_address,hotel_name,hotel_address,confirmed,source_notes
+Mexico,MX,A,Centro de Alto Rendimiento,"Cam. a Santiago 34, Dolores Tlali, Tlalpan, 14655 Ciudad de México, CDMX, Mexico",Centro de Alto Rendimiento,"Cam. a Santiago 34, Dolores Tlali, Tlalpan, 14655 Ciudad de México, CDMX, Mexico",FALSE,Host nation - to confirm
+South Korea,KR,A,Chivas Verde Valle,"C. Francisco I. Madero 5840, Jocotán, 45017 Zapopan, Jal., Mexico",Westin Guadalajara,"Av de Las Rosas 2911, Verde Valle, 44530 Guadalajara, Jal., Mexico",TRUE,SportsTravel
+Czechia,CZ,A,Mansfield Stadium,"3405 Stadium Drive, Mansfield, TX 76063",Sheraton Fort Worth Downtown Hotel,"1701 Commerce St, Fort Worth, TX 76102",TRUE,SportsTravel
+South Africa,ZA,A,Universidad del Futbol y Ciencias del Deporte,"Libramiento circuito de la Concepción km. 2 s/n 42160 Municipio La Concepción, Hgo., Mexico",Camino Real Pachuca,"Camino Real de La Plata Manzana 3 Lote 15, Zona Plateada, 42083 Pachuca de Soto, Hgo., Mexico",TRUE,SportsTravel
+Canada,CA,B,National Soccer Development Centre,"3065 Wesbrook Mall, Vancouver, BC V6T 2J3, Canada","The Westin Bayshore, Vancouver","1601 Bayshore Dr., Vancouver, BC V6G 2V4, Canada",FALSE,Host nation - to confirm
+Switzerland,CH,B,San Diego Jewish Academy,"11860 Carmel Creek Rd, San Diego, CA 92130",Fairmont Grand Del Mar,"5300 Grand Del Mar Ct, San Diego, CA 92130",TRUE,SportsTravel
+Qatar,QA,B,Westmont College,"955 La Paz Rd, Santa Barbara, CA 93108",Courtyard by Marriott Santa Barbara Goleta,"401 Storke Rd, Goleta, CA 93117",PARTIAL,SportsTravel - training at UCSB/Westmont Montecito
+Bosnia and Herzegovina,BA,B,America First Field,"9256 S State St, Sandy, UT 84070","Asher Adams, Autograph Collection","2 400 W, Salt Lake City, UT 84101",FALSE,To confirm
+Brazil,BR,C,Columbia Park Training Center,"103 Columbia Road, Morris Township, NJ 07960",The Ridge Hotel,"300 N Maple Ave, Basking Ridge, NJ 07920",TRUE,SportsTravel
+Morocco,MA,C,The Pingry School,"50 Country Day Dr, Short Hills, NJ 07078","Somerset Hills Hotel, Tapestry Collection by Hilton","200 Liberty Corner Rd, Warren, NJ 07059",FALSE,To confirm
+Haiti,HT,C,Stockton University,"101 Vera King Farris Dr, Galloway, NJ 08205",Sheraton Atlantic City Convention Center Hotel,"2 Convention Blvd, Atlantic City, NJ 08401",FALSE,Group C TBD post-draw
+Scotland,GB-SCT,C,Charlotte FC complex,"8600 McAlpine Park Drive, Charlotte, NC 28211",Renaissance Charlotte SouthPark,"5501 Carnegie Blvd, Charlotte, NC 28209",TRUE,FOX 5 DC - XS is custom code for Scotland
+USA,US,D,Great Park Championship Soccer Stadium,"8000 Great Park Blvd, Irvine, CA 92618",Marriott Irvine Spectrum,"7905 Irvine Center Dr, Irvine, CA 92618",TRUE,SportsTravel - hotel TBD
+Paraguay,PY,D,Spartan Soccer Complex,"1312 S 10th St, San Jose, CA 95112",Signia by Hilton San Jose,"170 S Market St, San Jose, CA 95113",FALSE,To confirm
+Australia,AU,D,Oakland Roots Training Facility,"1220 Harbor Bay Parkway, Alameda, CA 94502",Claremont Resort & Club,"41 Tunnel Rd, Berkeley, CA 94705",FALSE,To confirm
+Turkey,TR,D,Arizona Athletic Grounds,"6321 S Ellsworth Rd, Mesa, AZ 85212",Courtyard by Marriott Mesa at Wrigleyville West,"2224 W Rio Salado Pkwy, Mesa, AZ 85201",FALSE,To confirm
+Germany,DE,E,W. Dennie Spry Soccer Stadium,"Winston-Salem, NC 27106",The Graylyn Estate,"1900 Reynolda Rd, Winston-Salem, NC 27106",FALSE,To confirm
+CuraCao,CW,E,FAU soccer complex,"777 Glades Rd, Boca Raton, FL 33431",Boca Raton Marriott at Boca Center,"5150 Town Center Cir, Boca Raton, FL 33486",TRUE,FOX 5 DC
+Ivory Coast,CI,E,Subaru Park (Philadelphia Union),"1 Stadium Drive, Chester, PA 19013",HOTEL DU PONT,"42 W 11th St, Wilmington, DE 19801",TRUE,FOX 5 DC
+Ecuador,EC,E,Columbus Crew facilities,"1 Black and Gold Blvd, Columbus, OH 43211",Le Méridien Columbus,"620 N High St, Columbus, OH 43215",TRUE,FOX 5 DC
+Sweden,SE,F,Toyota Stadium,"9200 World Cup Way, Frisco, TX 75033",The Westin Dallas Stonebriar,"1549 Legacy Dr, Frisco, TX 75034",PARTIAL,SportsTravel - exact site TBD
+Tunisia,TN,F,El Barrial Training Center,"Camino a Los Cavazos, Quinta San Jorge, 67340 Santiago, Nuevo León, Mexico",The Westin Monterrey Valle,"Av. Manuel Gomez Morin y Rio Missouri, Punto Valle, 66220 San Pedro Garza García, N.L., Mexico",TRUE,SportsTravel
+Japan,JP,F,Nashville SC – Vanderbilt Health Training Center,"4251 Century Farms Ter, Antioch, TN 37013",TBD,"Nashville, TN 37201",FALSE,To confirm
+Netherlands,NL,F,KC Current Training Facility,"1 Teal Rising Way, Riverside, MO 64150",Hotel Kansas City - The Unbound Collection by Hyatt,"1228 Baltimore Ave, Kansas City, MO 64105",TRUE,Kansas City FWC26 official
+Belgium,BE,G,Seattle Sounders FC training center,"901 Monster Rd SW, Renton, WA 98057",Hyatt Regency Lake Washington at Seattle's Southport,"1053 Lake Washington Blvd N, Renton, WA 98056",FALSE,To confirm
+Egypt,EG,G,Luger Field (Gonzaga University),"Spokane, WA 99258",Northern Quest Resort and Casino,"Hayford Rd, Airway Heights, WA",TRUE,SportsTravel
+New Zealand,NZ,G,University of San Diego,"5998 Alcala Park Way, San Diego, CA 92110",Hyatt Regency La Jolla at Aventine,"3777 La Jolla Village Dr, San Diego, CA 92122",FALSE,To confirm
+Iran,IR,G,Kino Sports Complex,"2500 E Ajo Way, Tucson, AZ 85713",Westward Look Wyndham Grand Resort and Spa,"245 E Ina Rd, Tucson, AZ 85704",FALSE,To confirm
+Spain,ES,H,Baylor School,"171 Baylor School Rd, Chattanooga, TN 37405",Embassy Suites by Hilton Chattanooga Downtown,"345 Broad St, Chattanooga, TN 37402",PARTIAL,FOX 5 DC - exact site TBD
+Cape Verde,CV,H,Waters Sportsplex,"8108 Benjamin Rd, Tampa, FL 33634",Grand Hyatt Tampa Bay,"2900 Bayport Dr, Tampa, FL 33607",FALSE,To confirm
+Saudi Arabia,SA,H,Q2 Stadium (Austin FC facilities),"10414 Mc Kalla Pl, Austin, TX 78758",Four Seasons Hotel Austin,"98 San Jacinto Blvd, Austin, TX 78701",TRUE,FOX 5 DC
+Uruguay,UY,H,Mayakoba Training Centre Cancún,"Carretera Federal Cancún-Playa del Carmen KM 298, 77710 Playa del Carmen, Q.R., Mexico.",Fairmont Mayakoba,"Carretera Federal Cancún Km 298, 77710 Playa del Carmen, Q.R., Mexico",FALSE,To confirm
+France,FR,I,Bentley University,"175 Forest St, Waltham, MA 02452",Four Seasons Hotel Boston,"200 Boylston St, Boston, MA 02116",TRUE,FOX 5 DC
+Senegal,SN,I,Rutgers University,"57 US Highway 1, New Brunswick, NJ 08901",Delta Hotels Somerset,"110 Davidson Ave, Somerset, NJ 08873",FALSE,To confirm
+Iraq,IQ,I,Greenbrier Sports Performance Center,"274 Greenbrier Medical Wy, White Sulphur Springs, WV 24986",The Greenbrier,"101 W Main St, White Sulphur Springs, WV 24986",,
+Norway,NO,I,UNC Greensboro,"1400 Spring Garden St, Greensboro, NC 27412",Grandover Resort & Spa,"1000 Club Rd, Greensboro, NC 27407",TRUE,FOX 5 DC
+Argentina,AR,J,National Performance Center (Sporting KC),"1913 Pinnacle WayKansas City, KS 66111",Hotel Savoy Kansas City,"219 W 9th St, Kansas City, MO 64105",TRUE,Kansas City FWC26 official
+Algeria,DZ,J,Rock Chalk Park,"1450 Jayhawk Blvd, Lawrence, KS 66045",The Oread Lawrence,"1200 Oread Ave, Lawrence, KS 66044",TRUE,Kansas City FWC26 official
+Austria,AT,J,UC Santa Barbara,"Santa Barbara, CA 93106",The Ritz-Carlton Bacara,"8301 Hollister Ave, Santa Barbara, CA 93117",,
+Jordan,JO,J,University of Portland,"5000 N Willamette Blvd, Portland, OR 97203","The Nines, a Luxury Collection Hotel","525 SW Morrison St, Portland, OR 97204",PARTIAL,World Cup Guide - reported but unofficial
+Portugal,PT,K,Gardens North County District Park,"5101 117th Ct N, Palm Beach Gardens, FL 33418",Four Seasons Resort Palm Beach,"2800 S Ocean Blvd, Palm Beach, FL 33480",FALSE,To confirm
+DR Congo,CD,K,SaberCats Stadium,"2055 Mowery Rd, Houston, TX 77051",Omni Houston Hotel,"4 Riverway Dr, Houston, TX 77056",TRUE,FOX 5 DC
+Uzbekistan,UZ,K,Children's Healthcare of Atlanta Training Ground,"861 Franklin Gateway SE, Marietta, GA 30067",JW Marriott Atlanta Buckhead,"3300 Lenox Rd NE, Atlanta, GA 30326",FALSE,To confirm
+Colombia,CO,K,Academia Atlas FC,"Avenida Patria 1501, Interior 2, Zapopan, Jalisco 45136, MX",Grand Fiesta Americana Country Club,"Av. de las Américas 1551, Providencia, 44630 Guadalajara, Jal., Mexico",FALSE,To confirm
+England,GB-ENG,L,Swope Soccer Village,"6310 Lewis Rd, Kansas City, MO 64132",The Inn at Meadowbrook Hotel,"4901 Meadowbrook Pkwy, Prairie Village, KS 66207",TRUE,Kansas City FWC26 official
+Croatia,HR,L,Episcopal High School,"1200 N Quaker Ln, Alexandria, VA 22302","Hotel AKA, Alexandria","625 First St, Alexandria, VA 22314",TRUE,FOX 5 DC
+Ghana,GH,L,Bryant University,"1150 Douglas Pike, Smithfield, RI 02917",Graduate by Hilton Providence,"11 Dorrance St, Providence, RI 02903",FALSE,To confirm
+Panama,PA,L,Nottawasaga Resort & Conference Centre,"6015 ON-89, Alliston, ON L9R 1A4, Canada",Nottawasaga Resort & Conference Centre,"6015 ON-89, Alliston, ON L9R 1A4, Canada",,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,FALSE,Duplicate - merge with Columbus entry
