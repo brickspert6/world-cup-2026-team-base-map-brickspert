@@ -26,24 +26,24 @@ An interactive map visualizing the training base camps and hotels of all 48 team
 
 | | |
 |---|---|
-| 🏳️ **48 个国旗 Marker** | 圆形国旗，hover 放大，点击弹出信息卡 |
-| 📍 **训练基地 + 酒店** | 每队显示场馆名称与完整地址 |
-| 🔍 **小组筛选** | A–L 共 12 组，非选中队伍淡化保留整体感 |
-| 🌟 **首届参赛标注** | Cape Verde · Curaçao · Jordan · Uzbekistan |
-| 🌐 **完全开源免费** | 无 API Key，无付费依赖 |
+| 🏳️ **48 Flag Markers / 48 个国旗 Marker** | Circular flag icons, zoom on hover, click to open info card<br>圆形国旗，hover 放大，点击弹出信息卡 |
+| 📍 **Training Base + Hotel / 训练基地 + 酒店** | Venue name and full address for every team<br>每队显示场馆名称与完整地址 |
+| 🔍 **Group Filter / 小组筛选** | 12 groups (A–L), non-selected teams fade out while keeping map context<br>A–L 共 12 组，非选中队伍淡化保留整体感 |
+| 🌟 **Debut Teams / 首届参赛标注** | Cape Verde · Curaçao · Jordan · Uzbekistan |
+| 🌐 **Fully Open Source / 完全开源免费** | No API key, no paid dependencies<br>无 API Key，无付费依赖 |
 
 ---
 
 ## Tech Stack / 技术栈
 
-| 技术 | 用途 |
+| Tech / 技术 | Purpose / 用途 |
 |------|------|
-| [MapLibre GL JS](https://maplibre.org/) v4.7 | 地图渲染引擎 |
-| [OpenFreeMap Positron](https://openfreemap.org/) | 底图样式（开源，免费，无 token）|
-| [Cloudflare Pages](https://pages.cloudflare.com/) | 静态托管 + CDN |
-| [Circle Flags](https://github.com/HatScripts/circle-flags) | 圆形国旗 SVG |
-| [Mapbox Geocoding API](https://docs.mapbox.com/api/search/geocoding/) | 一次性地址 → 坐标转换 |
-| Node.js 18+ | Geocoding 脚本（仅需运行一次）|
+| [MapLibre GL JS](https://maplibre.org/) v4.7 | Map rendering engine / 地图渲染引擎 |
+| [OpenFreeMap Positron](https://openfreemap.org/) | Base map style, open-source & free, no token / 底图样式，开源免费，无 token |
+| [Cloudflare Pages](https://pages.cloudflare.com/) | Static hosting + CDN / 静态托管 + CDN |
+| [Circle Flags](https://github.com/HatScripts/circle-flags) | Circular flag SVGs / 圆形国旗 SVG |
+| [Mapbox Geocoding API](https://docs.mapbox.com/api/search/geocoding/) | One-time address → coordinates / 一次性地址 → 坐标转换 |
+| Node.js 18+ | Geocoding script (run once) / Geocoding 脚本（仅需运行一次）|
 
 ---
 
