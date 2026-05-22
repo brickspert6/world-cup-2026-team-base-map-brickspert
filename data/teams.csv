@@ -1,4 +1,4 @@
-﻿team,country_code,group,training_site,training_address,hotel_name,hotel_address,confirmed,source_notes
+team,country_code,group,training_site,training_address,hotel_name,hotel_address,confirmed,source_notes
 Mexico,MX,A,Centro de Alto Rendimiento,"Cam. a Santiago 34, Dolores Tlali, Tlalpan, 14655 Ciudad de México, CDMX, Mexico",Centro de Alto Rendimiento,"Cam. a Santiago 34, Dolores Tlali, Tlalpan, 14655 Ciudad de México, CDMX, Mexico",FALSE,Host nation - to confirm
 South Korea,KR,A,Chivas Verde Valle,"C. Francisco I. Madero 5840, Jocotán, 45017 Zapopan, Jal., Mexico",Westin Guadalajara,"Av de Las Rosas 2911, Verde Valle, 44530 Guadalajara, Jal., Mexico",TRUE,SportsTravel
 Czechia,CZ,A,Mansfield Stadium,"3405 Stadium Drive, Mansfield, TX 76063",Sheraton Fort Worth Downtown Hotel,"1701 Commerce St, Fort Worth, TX 76102",TRUE,SportsTravel
@@ -47,16 +47,3 @@ England,GB-ENG,L,Swope Soccer Village,"6310 Lewis Rd, Kansas City, MO 64132",The
 Croatia,HR,L,Episcopal High School,"1200 N Quaker Ln, Alexandria, VA 22302","Hotel AKA, Alexandria","625 First St, Alexandria, VA 22314",TRUE,FOX 5 DC
 Ghana,GH,L,Bryant University,"1150 Douglas Pike, Smithfield, RI 02917",Graduate by Hilton Providence,"11 Dorrance St, Providence, RI 02903",FALSE,To confirm
 Panama,PA,L,Nottawasaga Resort & Conference Centre,"6015 ON-89, Alliston, ON L9R 1A4, Canada",Nottawasaga Resort & Conference Centre,"6015 ON-89, Alliston, ON L9R 1A4, Canada",,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,FALSE,Duplicate - merge with Columbus entry

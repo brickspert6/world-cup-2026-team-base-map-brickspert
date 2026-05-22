@@ -1,0 +1,73 @@
+match_id,date,team_a,team_a_code,team_b,team_b_code,group,venue,venue_official,city,venue_lat,venue_lng
+1,2026-06-11,Mexico,MX,South Africa,ZA,A,Estadio Azteca,Mexico City Stadium,Mexico City,19.3028,-99.1503
+2,2026-06-11,South Korea,KR,Czechia,CZ,A,Estadio Akron,Guadalajara Stadium,Guadalajara,20.6858,-103.4653
+3,2026-06-12,Canada,CA,Bosnia and Herzegovina,BA,B,BMO Field,Toronto Stadium,Toronto,43.6334,-79.4185
+4,2026-06-12,USA,US,Paraguay,PY,D,SoFi Stadium,Los Angeles Stadium,Inglewood,33.9535,-118.3391
+5,2026-06-13,Qatar,QA,Switzerland,CH,B,Levi's Stadium,San Francisco Bay Area Stadium,Santa Clara,37.4034,-121.9700
+6,2026-06-13,Brazil,BR,Morocco,MA,C,MetLife Stadium,New York New Jersey Stadium,East Rutherford,40.8135,-74.0745
+7,2026-06-13,Haiti,HT,Scotland,GB-SCT,C,Gillette Stadium,Boston Stadium,Foxborough,42.0909,-71.2643
+8,2026-06-13,Australia,AU,Turkey,TR,D,BC Place,BC Place Vancouver,Vancouver,49.2767,-123.1121
+9,2026-06-14,Germany,DE,CuraCao,CW,E,NRG Stadium,Houston Stadium,Houston,29.6847,-95.4107
+10,2026-06-14,Netherlands,NL,Japan,JP,F,AT&T Stadium,Dallas Stadium,Arlington,32.7473,-97.0945
+11,2026-06-14,Ivory Coast,CI,Ecuador,EC,E,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,39.9007,-75.1675
+12,2026-06-14,Sweden,SE,Tunisia,TN,F,Estadio BBVA,Monterrey Stadium,Monterrey,25.6694,-100.2466
+13,2026-06-15,Spain,ES,Cape Verde,CV,H,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,33.7554,-84.4009
+14,2026-06-15,Belgium,BE,Egypt,EG,G,Lumen Field,Seattle Stadium,Seattle,47.5952,-122.3316
+15,2026-06-15,Saudi Arabia,SA,Uruguay,UY,H,Hard Rock Stadium,Miami Stadium,Miami Gardens,25.9580,-80.2388
+16,2026-06-15,Iran,IR,New Zealand,NZ,G,SoFi Stadium,Los Angeles Stadium,Inglewood,33.9535,-118.3391
+17,2026-06-16,France,FR,Senegal,SN,I,MetLife Stadium,New York New Jersey Stadium,East Rutherford,40.8135,-74.0745
+18,2026-06-16,Iraq,IQ,Norway,NO,I,Gillette Stadium,Boston Stadium,Foxborough,42.0909,-71.2643
+19,2026-06-16,Argentina,AR,Algeria,DZ,J,GEHA Field at Arrowhead Stadium,Kansas City Stadium,Kansas City,39.0489,-94.4839
+20,2026-06-16,Austria,AT,Jordan,JO,J,Levi's Stadium,San Francisco Bay Area Stadium,Santa Clara,37.4034,-121.9700
+21,2026-06-17,Portugal,PT,DR Congo,CD,K,NRG Stadium,Houston Stadium,Houston,29.6847,-95.4107
+22,2026-06-17,England,GB-ENG,Croatia,HR,L,AT&T Stadium,Dallas Stadium,Arlington,32.7473,-97.0945
+23,2026-06-17,Ghana,GH,Panama,PA,L,BMO Field,Toronto Stadium,Toronto,43.6334,-79.4185
+24,2026-06-17,Uzbekistan,UZ,Colombia,CO,K,Estadio Azteca,Mexico City Stadium,Mexico City,19.3028,-99.1503
+25,2026-06-18,Czechia,CZ,South Africa,ZA,A,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,33.7554,-84.4009
+26,2026-06-18,Switzerland,CH,Bosnia and Herzegovina,BA,B,SoFi Stadium,Los Angeles Stadium,Inglewood,33.9535,-118.3391
+27,2026-06-18,Canada,CA,Qatar,QA,B,BC Place,BC Place Vancouver,Vancouver,49.2767,-123.1121
+28,2026-06-18,Mexico,MX,South Korea,KR,A,Estadio Akron,Guadalajara Stadium,Guadalajara,20.6858,-103.4653
+29,2026-06-19,Scotland,GB-SCT,Morocco,MA,C,Gillette Stadium,Boston Stadium,Foxborough,42.0909,-71.2643
+30,2026-06-19,USA,US,Australia,AU,D,Lumen Field,Seattle Stadium,Seattle,47.5952,-122.3316
+31,2026-06-19,Brazil,BR,Haiti,HT,C,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,39.9007,-75.1675
+32,2026-06-19,Turkey,TR,Paraguay,PY,D,Levi's Stadium,San Francisco Bay Area Stadium,Santa Clara,37.4034,-121.9700
+33,2026-06-20,Netherlands,NL,Sweden,SE,F,NRG Stadium,Houston Stadium,Houston,29.6847,-95.4107
+34,2026-06-20,Germany,DE,Ivory Coast,CI,E,BMO Field,Toronto Stadium,Toronto,43.6334,-79.4185
+35,2026-06-20,Ecuador,EC,CuraCao,CW,E,GEHA Field at Arrowhead Stadium,Kansas City Stadium,Kansas City,39.0489,-94.4839
+36,2026-06-20,Tunisia,TN,Japan,JP,F,Estadio BBVA,Monterrey Stadium,Monterrey,25.6694,-100.2466
+37,2026-06-21,Spain,ES,Saudi Arabia,SA,H,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,33.7554,-84.4009
+38,2026-06-21,Belgium,BE,Iran,IR,G,SoFi Stadium,Los Angeles Stadium,Inglewood,33.9535,-118.3391
+39,2026-06-21,Uruguay,UY,Cape Verde,CV,H,Hard Rock Stadium,Miami Stadium,Miami Gardens,25.9580,-80.2388
+40,2026-06-21,New Zealand,NZ,Egypt,EG,G,BC Place,BC Place Vancouver,Vancouver,49.2767,-123.1121
+41,2026-06-22,Argentina,AR,Austria,AT,J,AT&T Stadium,Dallas Stadium,Arlington,32.7473,-97.0945
+42,2026-06-22,France,FR,Iraq,IQ,I,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,39.9007,-75.1675
+43,2026-06-22,Norway,NO,Senegal,SN,I,MetLife Stadium,New York New Jersey Stadium,East Rutherford,40.8135,-74.0745
+44,2026-06-22,Jordan,JO,Algeria,DZ,J,Levi's Stadium,San Francisco Bay Area Stadium,Santa Clara,37.4034,-121.9700
+45,2026-06-23,Portugal,PT,Uzbekistan,UZ,K,NRG Stadium,Houston Stadium,Houston,29.6847,-95.4107
+46,2026-06-23,England,GB-ENG,Ghana,GH,L,Gillette Stadium,Boston Stadium,Foxborough,42.0909,-71.2643
+47,2026-06-23,Panama,PA,Croatia,HR,L,BMO Field,Toronto Stadium,Toronto,43.6334,-79.4185
+48,2026-06-23,Colombia,CO,DR Congo,CD,K,Estadio Akron,Guadalajara Stadium,Guadalajara,20.6858,-103.4653
+49,2026-06-24,Switzerland,CH,Canada,CA,B,BC Place,BC Place Vancouver,Vancouver,49.2767,-123.1121
+50,2026-06-24,Bosnia and Herzegovina,BA,Qatar,QA,B,Lumen Field,Seattle Stadium,Seattle,47.5952,-122.3316
+51,2026-06-24,Scotland,GB-SCT,Brazil,BR,C,Hard Rock Stadium,Miami Stadium,Miami Gardens,25.9580,-80.2388
+52,2026-06-24,Morocco,MA,Haiti,HT,C,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,33.7554,-84.4009
+53,2026-06-24,Czechia,CZ,Mexico,MX,A,Estadio Azteca,Mexico City Stadium,Mexico City,19.3028,-99.1503
+54,2026-06-24,South Africa,ZA,South Korea,KR,A,Estadio BBVA,Monterrey Stadium,Monterrey,25.6694,-100.2466
+55,2026-06-25,Ecuador,EC,Germany,DE,E,MetLife Stadium,New York New Jersey Stadium,East Rutherford,40.8135,-74.0745
+56,2026-06-25,CuraCao,CW,Ivory Coast,CI,E,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,39.9007,-75.1675
+57,2026-06-25,Japan,JP,Sweden,SE,F,AT&T Stadium,Dallas Stadium,Arlington,32.7473,-97.0945
+58,2026-06-25,Tunisia,TN,Netherlands,NL,F,GEHA Field at Arrowhead Stadium,Kansas City Stadium,Kansas City,39.0489,-94.4839
+59,2026-06-25,Turkey,TR,USA,US,D,SoFi Stadium,Los Angeles Stadium,Inglewood,33.9535,-118.3391
+60,2026-06-25,Paraguay,PY,Australia,AU,D,Levi's Stadium,San Francisco Bay Area Stadium,Santa Clara,37.4034,-121.9700
+61,2026-06-26,Norway,NO,France,FR,I,Gillette Stadium,Boston Stadium,Foxborough,42.0909,-71.2643
+62,2026-06-26,Senegal,SN,Iraq,IQ,I,BMO Field,Toronto Stadium,Toronto,43.6334,-79.4185
+63,2026-06-26,Cape Verde,CV,Saudi Arabia,SA,H,NRG Stadium,Houston Stadium,Houston,29.6847,-95.4107
+64,2026-06-26,Uruguay,UY,Spain,ES,H,Estadio Akron,Guadalajara Stadium,Guadalajara,20.6858,-103.4653
+65,2026-06-26,Egypt,EG,Iran,IR,G,Lumen Field,Seattle Stadium,Seattle,47.5952,-122.3316
+66,2026-06-26,New Zealand,NZ,Belgium,BE,G,BC Place,BC Place Vancouver,Vancouver,49.2767,-123.1121
+67,2026-06-27,Panama,PA,England,GB-ENG,L,MetLife Stadium,New York New Jersey Stadium,East Rutherford,40.8135,-74.0745
+68,2026-06-27,Croatia,HR,Ghana,GH,L,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,39.9007,-75.1675
+69,2026-06-27,Colombia,CO,Portugal,PT,K,Hard Rock Stadium,Miami Stadium,Miami Gardens,25.9580,-80.2388
+70,2026-06-27,DR Congo,CD,Uzbekistan,UZ,K,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,33.7554,-84.4009
+71,2026-06-27,Algeria,DZ,Austria,AT,J,GEHA Field at Arrowhead Stadium,Kansas City Stadium,Kansas City,39.0489,-94.4839
+72,2026-06-27,Jordan,JO,Argentina,AR,J,AT&T Stadium,Dallas Stadium,Arlington,32.7473,-97.0945

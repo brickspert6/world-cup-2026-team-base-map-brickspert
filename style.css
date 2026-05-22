@@ -93,6 +93,13 @@ body, html {
   flex-shrink: 0;
 }
 
+.filter-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 4px 0 2px;
+}
+
 .filter-btn[data-group="all"] {
   min-width: 40px;
   font-size: 11px;
@@ -109,12 +116,19 @@ body, html {
   color: #fff;
 }
 
+/* ── Faded state — used by layer filter, group filter, and popup highlight ───── */
+.marker-faded {
+  opacity: 0.15 !important;
+  pointer-events: none !important;
+}
+
 /* ── Team marker ─────────────────────────────────────────────────────────────── */
 .team-marker {
   cursor: pointer;
   width: 36px;
   height: 36px;
   display: block;
+  transition: opacity 0.2s ease;
 }
 
 .team-marker img {
@@ -140,7 +154,7 @@ body, html {
   border: 1px solid rgba(0, 0, 0, 0.07);
   overflow: hidden;
   min-width: 300px;
-  max-width: 340px;
+  max-width: 580px;
 }
 
 /* Tip arrow colour */
@@ -153,29 +167,53 @@ body, html {
 .team-popup.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip     { border-bottom-color: #fff; }
 .team-popup.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip    { border-bottom-color: #fff; }
 
-/* Close button */
-.team-popup .mapboxgl-popup-close-button {
-  top: 10px;
-  right: 10px;
-  font-size: 16px;
-  color: #9CA3AF;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  width: 22px;
-  height: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  line-height: 1;
-  z-index: 2;
-  transition: background 0.12s, color 0.12s;
+/* Close button — red pill, white ×, easy to spot */
+.team-popup .mapboxgl-popup-close-button,
+.team-popup .maplibregl-popup-close-button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 50% !important;
+  background: #EF4444 !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 26px !important;
+  text-align: center !important;
+  padding: 0 !important;
+  border: none !important;
+  cursor: pointer !important;
+  z-index: 10 !important;
+  transition: background 0.15s ease, transform 0.12s ease;
 }
 
-.team-popup .mapboxgl-popup-close-button:hover {
-  background: rgba(0, 0, 0, 0.07);
-  color: #374151;
+.team-popup .mapboxgl-popup-close-button:hover,
+.team-popup .maplibregl-popup-close-button:hover {
+  background: #DC2626 !important;
+  transform: scale(1.12);
+}
+
+/* ── Draggable popup ─────────────────────────────────────────────────────────── */
+/* Grab cursor on the header (drag handle) */
+.popup-header,
+.venue-popup-header {
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* While actively dragging */
+.popup-dragging,
+.popup-dragging * {
+  cursor: grabbing !important;
+}
+
+/* Hide the connector tip arrow once popup is detached */
+.popup-dragging .maplibregl-popup-tip,
+.popup-dragging .mapboxgl-popup-tip {
+  display: none;
 }
 
 /* ── Popup inner content ─────────────────────────────────────────────────────── */
@@ -187,7 +225,7 @@ body, html {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 40px 12px 14px; /* right: room for close btn */
+  padding: 14px 46px 12px 14px; /* right: room for red close btn */
 }
 
 .popup-flag {
@@ -295,4 +333,215 @@ body, html {
 .mapboxgl-ctrl-bottom-right {
   bottom: 28px;
   right: 12px;
+}
+
+/* ── Venue marker — bare emoji,融入地图 ──────────────────────────────────────── */
+.venue-marker {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  transition: font-size 0.18s ease, filter 0.18s ease, opacity 0.2s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.venue-marker:hover {
+  font-size: 29px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* ── Venue popup inner layout ────────────────────────────────────────────────── */
+.venue-popup-inner {
+  min-width: 290px;
+}
+
+.venue-popup-header {
+  padding: 14px 40px 12px 14px;
+}
+
+.venue-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.25;
+  margin-bottom: 3px;
+}
+
+.venue-city {
+  font-size: 12px;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.venue-matches-title {
+  padding: 10px 14px 6px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9CA3AF;
+}
+
+.venue-matches-list {
+  padding: 0 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.venue-match-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.venue-match-date {
+  font-size: 11px;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.venue-match-teams {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.match-flag {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.08);
+  flex-shrink: 0;
+  display: block;
+}
+
+.match-team-name {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #1F2937;
+}
+
+.match-vs {
+  font-size: 11px;
+  color: #9CA3AF;
+  font-weight: 500;
+  padding: 0 1px;
+}
+
+/* ── Team popup two-column body layout ───────────────────────────────────────── */
+.popup-body {
+  display: flex;
+  align-items: stretch;
+}
+
+.popup-left {
+  padding: 11px 14px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.popup-col-divider {
+  width: 1px;
+  background: #F3F4F6;
+  flex-shrink: 0;
+}
+
+/* "MATCHES" label in header, right-aligned alongside Group pill */
+.popup-matches-label {
+  margin-left: auto;
+  margin-right: 6px;       /* breathing room before close button */
+  align-self: flex-end;    /* sit at same baseline as group pill */
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #9CA3AF;
+  white-space: nowrap;
+}
+
+.popup-right {
+  padding: 11px 14px 13px;
+  flex: 1;
+  min-width: 195px;
+}
+
+/* Stack columns on narrow viewports (mainly for safety) */
+@media (max-width: 480px) {
+  .popup-body { flex-direction: column; }
+  .popup-col-divider { width: auto; height: 1px; }
+}
+
+/* ── Match cards inside team popup ───────────────────────────────────────────── */
+.match-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.match-card {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 7px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* Date + opponent on one line */
+.match-card-top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+
+.match-card-date {
+  font-size: 11px;
+  font-weight: 500;
+  color: #6B7280;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.match-card-opp {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #111827;
+  min-width: 0;
+}
+
+.match-card-opp .match-flag {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.match-card-venue {
+  font-size: 11px;
+  color: #6B7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.match-card-dist {
+  font-size: 11px;
+  color: #9CA3AF;
 }
